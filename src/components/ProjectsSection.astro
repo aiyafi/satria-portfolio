@@ -1,25 +1,33 @@
 ---
 import ProjectCard from '@components/ProjectCard.astro'
-import Typescript from '@assets/icons/typescript.astro';
+// import Python from '@assets/icons/python.astro';
+// import Laravel from '@assets/icons/laravel.astro';
+// import Docker from '@assets/icons/docker.astro';
+import MySQL from '@assets/icons/mysql.astro';
+// import PHP from '@assets/icons/php.astro';
 import React from '@assets/icons/react.astro';
-import Supabase from '@assets/icons/supabase.astro';
-import Tailwind from '@assets/icons/tailwind.astro';
 ---
 
 <section class="my-20">
-  <h2 class="text-2xl font-semibold mb-2">Project</h2>
+  <h2 class="text-2xl font-semibold mb-2">Projects</h2>
   <hr class="mb-6 border-zinc-600">
 
-  <ProjectCard projectTitle="Example 1" projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula." projectLink="https://github.com/username/project1" image="https://placehold.co/300x250">
-    <React />
-    <Supabase />
-    <Tailwind />
-    <Typescript />
+  <ProjectCard projectTitle="Improving Skin Disease Classification with EfficientNetB0: A Deep Learning Approach to Overfitting Control" projectDescription="A deep learning approach to improve the classification of skin diseases, utilizing EfficientNetB0 to control overfitting. Published at ICOICT 2024." projectLink="https://github.com/username/skin-disease-classification" image="https://placehold.co/300x250">
+    <!-- <Python /> -->
   </ProjectCard>
 
-  <ProjectCard projectTitle="Example 2" projectDescription="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida." projectLink="https://github.com/username/project2" image="https://placehold.co/300x250">
+  <ProjectCard projectTitle="Transforming Indonesian Geography Education Books into Knowledge Graphs Using ChatGPT LLMs" projectDescription="Created a knowledge graph from Indonesian geography books using ChatGPT LLMs. Presented at ICOICT 2024." projectLink="https://github.com/username/indonesia-geography-graph" image="https://placehold.co/300x250">
+    <!-- <Laravel />
+    <PHP /> -->
+  </ProjectCard>
+
+  <ProjectCard projectTitle="Smart IR Remote Implementation at Telkom University Landmark Tower" projectDescription="Developed a smart IR remote system for efficient management of appliances in Telkom University's Landmark Tower." projectLink="https://github.com/username/smart-ir-remote" image="https://placehold.co/300x250">
     <React />
-    <Supabase />
-    <Tailwind />
+    <!-- <Docker /> -->
+    <MySQL />
+  </ProjectCard>
+
+  <ProjectCard projectTitle="Community Service Metaverse World Introduction at SMA Muhammadiyah Cileungsi" projectDescription="Introduced metaverse concepts in a community service project at SMA Muhammadiyah Cileungsi, including serving as MC and final report writer." projectLink="https://github.com/username/community-service-metaverse" image="https://placehold.co/300x250">
+    <React />
   </ProjectCard>
 </section>

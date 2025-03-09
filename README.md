@@ -1,25 +1,41 @@
-<a href="https://garaven.vercel.app"><img src="./public/images/readme.png" alt="Portfolio displayed on different devices" width="100%"></a>
-<hr>
-<div align="center">
-  <img src="https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-</div>
+# Satria Portfolio
+
+A modern, responsive portfolio website showcasing the skills, projects, and professional experience.
+
+## **Technologies Used**
+- Astro
+- Tailwind CSS
 
 ## **Project structure**
 ```
 public/
-└── svg/
+├── svg/
+└── assets/
+    └── images/
 src/
 ├── assets/
 ├── components/
+│   ├── ui/
+│   ├── layout/
+│   └── sections/
 ├── layouts/
-└── pages/
+├── pages/
+├── styles/
+└── utils/
 ```
+
+## **Features**
+- Responsive design
+- Animated UI elements
+- Dark/light mode
+- Project showcase
+- Contact form
+- Performance optimized
 
 ## **Local configuration** 
 1. Clone the repo:  
 ```
-git clone https://github.com/garaven/portfolio
+git clone https://github.com/garaven/satria-portfolio
 ```
 2. Install dependencies:
 ```  
@@ -29,3 +45,17 @@ npm install
 ```  
 npm run dev
 ```
+4. Open your browser and navigate to:
+```
+http://localhost:3000
+```
+
+## **Deployment**
+This portfolio is configured to be deployed on Vercel.
+
+1. Push your changes to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically build and deploy your site
+
+## **License**
+MIT

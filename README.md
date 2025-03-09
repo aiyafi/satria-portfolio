@@ -35,7 +35,7 @@ src/
 ## **Local configuration** 
 1. Clone the repo:  
 ```
-git clone https://github.com/garaven/satria-portfolio
+git clone https://github.com/aiyafi/satria-portfolio
 ```
 2. Install dependencies:
 ```  
